@@ -29,3 +29,31 @@ app.use(express.json()); //parse various different custom JSON types as JSON
 app.listen(PORT, () => {
   console.log(`Server is up and running on port number ${PORT}`);
 });
+
+//View Event  route
+
+app.use("/event", require("./BACKEND/routes/event"));
+
+//view all deeliveries route
+
+app.use("/delivery", require("./BACKEND/routes/delivery"));
+
+// view all appointments route
+
+app.use("/appointment", require("./BACKEND/routes/appointment"));
+
+//view all advertisements route
+
+app.use("/advertisement", require("./BACKEND/routes/advertisement"));
+
+//view all salaries route
+
+app.use("/salary", require("./BACKEND/routes/salary"));
+
+//view all inventories route
+
+app.use("/inventory", require("./BACKEND/routes/inventory"));
+
+//view all other route
+
+app.use("/other", require("./BACKEND/routes/other"));
