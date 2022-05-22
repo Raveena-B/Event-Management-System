@@ -258,7 +258,10 @@ export default class DisplayInventory extends React.Component {
                         <div style={{ display: "flex" }}>
                           <div>
                             <Link to={"/addpaymentdetails"}>
-                              <button className="btn btn-secondary">
+                              <button
+                                className="btn btn-secondary"
+                                style={{ width: "115px" }}
+                              >
                                 Add Payment <br />
                                 details
                               </button>

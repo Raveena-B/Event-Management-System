@@ -26,10 +26,10 @@ const Home = () => {
               </li>
 
               <li className="li">
-                <Link to="#"> Food</Link>
+                <Link to=""> Food</Link>
               </li>
               <li className="li">
-                <Link to="#"> Event</Link>
+                <Link to=""> Event</Link>
               </li>
               <Dropdown as={ButtonGroup}>
                 <Button
@@ -97,19 +97,19 @@ const Home = () => {
               </Dropdown>
 
               <li className="li">
-                <Link to="#"> Supplier</Link>
+                <Link to=""> Supplier</Link>
               </li>
               <li className="li">
-                <Link to="#"> Customer</Link>
+                <Link to=""> Customer</Link>
               </li>
               <li className="li">
-                <Link to="#"> Inventory</Link>
+                <Link to=""> Inventory</Link>
               </li>
               <li className="li">
-                <Link to="#"> Delivery</Link>
+                <Link to=""> Delivery</Link>
               </li>
               <li className="li" style={{ textDecoration: "none" }}>
-                <Link to="#"> Employee</Link>
+                <Link to=""> Employee</Link>
               </li>
             </center>
           </ul>
