@@ -49,7 +49,7 @@ const AddOther = () => {
   return (
     <div>
       <div id="header">
-        <section className="bg3">
+        <section className="bg7">
           <nav className="nav">
             <ul className="ul">
               <center>

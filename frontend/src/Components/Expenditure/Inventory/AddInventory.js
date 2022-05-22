@@ -49,7 +49,7 @@ const AddInventory = () => {
   return (
     <div>
       <div id="header">
-        <section className="bg3">
+        <section className="bg6">
           <nav className="nav">
             <ul className="ul">
               <center>
@@ -176,7 +176,9 @@ const AddInventory = () => {
             <button className="btnback"> « Back</button>
           </a>
           <center>
-            <h1 style={{ color: "white" }}>Add New Inventory ..</h1>
+            <h1 style={{ color: "Black", fontWeight: "bold" }}>
+              Add New Inventory ..
+            </h1>
           </center>
           <form
             onSubmit={handleSubmit}

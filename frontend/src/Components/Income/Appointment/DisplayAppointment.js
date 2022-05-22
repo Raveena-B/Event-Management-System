@@ -66,7 +66,7 @@ export default class DisplayAppointment extends React.Component {
   render() {
     return (
       <div id="header">
-        <section className="bg3">
+        <section className="bg2">
           <nav className="nav">
             <ul className="ul">
               <center>
@@ -189,10 +189,10 @@ export default class DisplayAppointment extends React.Component {
             </a>
             <h1
               style={{
-                color: "white",
+                color: "black",
                 marginRight: "300px",
                 marginTop: "10px",
-                color: "white",
+                fontWeight: "bold",
               }}
             >
               <center> All Appointments ..</center>

@@ -8,7 +8,7 @@ import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core//Paper";
 import axios from "axios";
 import jsPDF from "jspdf";
-import "./supplier.css";
+import "./salary.css";
 import html2canvas from "html2canvas";
 import { Link } from "react-router-dom";
 
@@ -159,11 +159,11 @@ export default class Report extends Component {
         <br />
         <center>
           <br />
-          <span style={{ color: "white" }}>{"Copyright © "}</span>
+          <span style={{ color: "lightcoral" }}>{"Copyright © "}</span>
 
-          {/* <span style={{ color: "lightcoral" }}>Financial Management</span> */}
+          <span style={{ color: "lightcoral" }}>Financial Management</span>
 
-          <span style={{ color: "white" }}>
+          <span style={{ color: "lightcoral" }}>
             {" " + new Date().getFullYear() + " . "}
           </span>
         </center>

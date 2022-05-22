@@ -49,7 +49,7 @@ const AddAdvertisement = () => {
   return (
     <div>
       <div id="header">
-        <section className="bg3">
+        <section className="bg4">
           <nav className="nav">
             <ul className="ul">
               <center>

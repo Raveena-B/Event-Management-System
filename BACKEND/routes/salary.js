@@ -5,7 +5,7 @@ router.route("/add").post((req, res) => {
   const employeeId = req.body.employeeId;
   const employeeName = req.body.employeeName;
   const date = req.body.date;
-  const amount = req.body.amount;
+  const amount = Number(req.body.amount);
 
   const newEmployeeData = {
     employeeId,

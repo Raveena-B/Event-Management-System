@@ -65,7 +65,7 @@ export default class DisplayEvent extends React.Component {
   render() {
     return (
       <div id="header">
-        <section className="bg3">
+        <section className="bg1">
           <nav className="nav">
             <ul className="ul">
               <center>

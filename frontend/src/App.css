@@ -456,7 +456,7 @@ btn:hover {
 }
 
 .bg1 {
-    background-image: url("../public/1.jpeg");
+    background-image: url("../public/event.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     width: 1524px;
@@ -468,7 +468,7 @@ btn:hover {
 }
 
 .bg2 {
-    background-image: url("../public/2.png");
+    background-image: url("../public/appointment.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     width: 1524px;
@@ -477,7 +477,7 @@ btn:hover {
 }
 
 .bg3 {
-    background-image: url("../public/5.webp");
+    background-image: url("../public/delivery.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     width: 1524px;
@@ -486,7 +486,7 @@ btn:hover {
 }
 
 .bg4 {
-    background-image: url("../public/7.webp");
+    background-image: url("../public/advertisement.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     width: 1524px;
@@ -495,7 +495,7 @@ btn:hover {
 }
 
 .bg5 {
-    background-image: url("../public/9.jpg");
+    background-image: url("../public/salary.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     width: 1524px;
@@ -504,7 +504,7 @@ btn:hover {
 }
 
 .bg6 {
-    background-image: url("../public/18.jpg");
+    background-image: url("../public/store.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     width: 1524px;
@@ -513,7 +513,15 @@ btn:hover {
 }
 
 .bg7 {
-    background-image: url("../public/29.jpg");
+    background-image: url("../public/other.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    width: 1524px;
+    height: 100%;
+    margin-right: "550px";
+}
+.bg8 {
+    background-image: url("../public/home.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     width: 1524px;

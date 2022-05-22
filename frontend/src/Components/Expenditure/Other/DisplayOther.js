@@ -64,7 +64,7 @@ export default class DisplayOther extends React.Component {
   render() {
     return (
       <div id="header">
-        <section className="bg3">
+        <section className="bg7">
           <nav className="nav">
             <ul className="ul">
               <center>

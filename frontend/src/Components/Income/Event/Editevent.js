@@ -77,7 +77,7 @@ const EditEvent = () => {
 
   return (
     <div id="header">
-      <section className="bg3">
+      <section className="bg1">
         <nav className="nav">
           <ul className="ul">
             <center>

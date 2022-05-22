@@ -49,7 +49,7 @@ const AddEvent = () => {
   return (
     <div>
       <div id="header">
-        <section className="bg3">
+        <section className="bg2">
           <nav className="nav">
             <ul className="ul">
               <center>
@@ -170,7 +170,9 @@ const AddEvent = () => {
             <button className="btnback"> « Back</button>
           </a>
           <center>
-            <h1 style={{ color: "white" }}>Add New Appointment ..</h1>
+            <h1 style={{ color: "black", fontWeight: "bold" }}>
+              Add New Appointment ..
+            </h1>
           </center>
           <form
             onSubmit={handleSubmit}

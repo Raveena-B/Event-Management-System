@@ -51,7 +51,7 @@ const AddSalary = () => {
   return (
     <div>
       <div id="header">
-        <section className="bg3">
+        <section className="bg5">
           <nav className="nav">
             <ul className="ul">
               <center>
@@ -175,7 +175,9 @@ const AddSalary = () => {
             <button className="btnback"> « Back</button>
           </a>
           <center>
-            <h1 style={{ color: "white" }}>Add New Salary ..</h1>
+            <h1 style={{ color: "Black", fontWeight: "bold" }}>
+              Add New Salary ..
+            </h1>
           </center>
           <form
             onSubmit={handleSubmit}

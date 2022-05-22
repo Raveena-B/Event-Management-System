@@ -67,7 +67,7 @@ export default class DisplayEvent extends React.Component {
   render() {
     return (
       <div id="header">
-        <section className="bg3">
+        <section className="bg5">
           <nav className="nav">
             <ul className="ul">
               <center>
@@ -193,10 +193,10 @@ export default class DisplayEvent extends React.Component {
             </a>
             <h1
               style={{
-                color: "white",
                 marginRight: "300px",
                 marginTop: "10px",
-                color: "white",
+                color: "Black",
+                fontWeight: "bold",
               }}
             >
               <center> All Salaries ..</center>
@@ -259,8 +259,9 @@ export default class DisplayEvent extends React.Component {
                               </button>
                             </Link>
                           </div>
+                          &nbsp;
                           <div>
-                            <Link to={`/salarylist/${i._id}`}>
+                            <Link to={"/salarylist"}>
                               <button className="btn btn-secondary">
                                 Edit
                               </button>

@@ -30,8 +30,8 @@ import DisplayOther from "./Components/Expenditure/Other/DisplayOther";
 
 import AddPaymentDetails from "./Components/Expenditure/Common/AddPaymentDetails";
 
-import ReportGenerator from "./Components/Expenditure/Salary/reportGenerator";
 import List from "./Components/Expenditure/Salary/List";
+import Report from "./Components/Expenditure/Salary/Financial";
 
 function App() {
   return (
@@ -77,7 +77,7 @@ function App() {
 
             <Route path="/addpaymentdetails" element={<AddPaymentDetails />} />
 
-            <Route path="/reportgenerator" element={<ReportGenerator />} />
+            <Route path="/reportgenerator" element={<Report />} />
             <Route path="/salarylist" element={<List />} />
           </Routes>
         </main>

@@ -77,7 +77,7 @@ const EditAppointment = () => {
 
   return (
     <div id="header">
-      <section className="bg3">
+      <section className="bg2">
         <nav className="nav">
           <ul className="ul">
             <center>

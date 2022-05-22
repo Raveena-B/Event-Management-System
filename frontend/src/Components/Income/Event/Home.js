@@ -3,54 +3,15 @@ import { Button, ButtonGroup, Dropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./event.css";
 import "../../../App.css";
-// import axios from "axios";
 import React, { useState } from "react";
-// import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Home = () => {
-  // const [loading, setLoading] = useState(false); //additional
-  // const [isError, setIsError] = useState(false);
-
-  // const [newUser, setNewUser] = useState({
-  //   foodId: "",
-  //   foodName: "",
-  //   amount: "",
-  // });
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   setLoading(true);
-  //   setIsError(false); //additional
-  //   const formData = new FormData();
-  //   formData.append("foodId", newUser.foodId);
-  //   formData.append("foodName", newUser.foodName);
-  //   formData.append("amount", newUser.amount);
-  //   axios
-  //     .post("", formData) //add food data
-  //     .then((res) => {
-  //       console.log(res);
-  //       setLoading(false);
-  //       toast("Success! food Item Added");
-  //       setNewUser({
-  //         foodId: "",
-  //         foodName: "",
-  //         amount: "",
-  //       });
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //       setLoading(false);
-  //       setIsError(true);
-  //       toast("Error Food Item is Not Added dupplicate key found");
-  //     });
-  // };
-
   return (
     <div id="header">
       <header></header>
 
-      <section className="bg1">
+      <section className="bg8">
         <nav className="nav">
           <ul className="ul">
             <center>

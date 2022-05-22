@@ -33,12 +33,11 @@ export default class StudentList extends Component {
 
   render() {
     return (
-      <div className="bg5" style={{ color: "#A3C8E7" }}>
+      <div className="bg5">
         <Link to="/reportgenerator">
           <div>
             <button
               className="info__button"
-              onClick={this.generatePDF}
               type="primary"
               style={{ float: "right", marginTop: "100px" }}
             >
@@ -51,13 +50,12 @@ export default class StudentList extends Component {
           <br />
         </Link>
 
-        <div style={{ color: "#A3C8E7" }}>
+        <div>
           <div className="table-wrapper container ">
             <center>
               <Table
                 striped
                 bordered
-                hover
                 style={{
                   background: "#000000",
                   // padding: "20px 20px 20px 20px",
@@ -74,13 +72,23 @@ export default class StudentList extends Component {
                     <th style={{ color: "white" }}>Amount</th>
                   </tr>
                 </thead>
-                <tbody>{this.DataTable()}</tbody>
+                <tbody style={{ color: "white" }}>{this.DataTable()}</tbody>
               </Table>
             </center>
+            <br />
+            <br />
+            <br />
+            <br /> <br />
+            <br />
+            <br />
+            <br /> <br />
+            <br />
+            <br />
+            <br /> <br />
+            <br />
+            <br />
+            <br />
           </div>
-
-          <br />
-          <br />
         </div>
       </div>
     );
