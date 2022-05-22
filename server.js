@@ -57,3 +57,7 @@ app.use("/inventory", require("./BACKEND/routes/inventory"));
 //view all other route
 
 app.use("/other", require("./BACKEND/routes/other"));
+
+//view payment details
+
+app.use("/paymentDetails", require("./BACKEND/routes/paymentDetails"));

@@ -1,0 +1,17 @@
+.container {
+    margin-left: 0px;
+
+}
+
+.bg7{
+    height: 1000px;
+}
+
+.bg5 {
+    background-image: url("../../../../public/9.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    width: 1524px;
+    height: 750px;
+    margin-right: "550px";
+  }

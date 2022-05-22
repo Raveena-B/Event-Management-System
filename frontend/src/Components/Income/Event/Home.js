@@ -86,7 +86,7 @@ const Home = () => {
 
                 <Dropdown.Menu>
                   <Dropdown.Item>
-                    <Link to="#" style={{ textDecoration: "none" }}>
+                    <Link to="/adddelivery" style={{ textDecoration: "none" }}>
                       Delivery
                     </Link>
                   </Dropdown.Item>
@@ -98,31 +98,37 @@ const Home = () => {
                   </Dropdown.Item>
 
                   <Dropdown.Item>
-                    <Link to="#" style={{ textDecoration: "none" }}>
+                    <Link
+                      to="/addappointment"
+                      style={{ textDecoration: "none" }}
+                    >
                       Appointment
                     </Link>
                   </Dropdown.Item>
 
                   <Dropdown.Item>
-                    <Link to="#" style={{ textDecoration: "none" }}>
+                    <Link
+                      to="/addadvertisement"
+                      style={{ textDecoration: "none" }}
+                    >
                       Advertisement
                     </Link>
                   </Dropdown.Item>
 
                   <Dropdown.Item>
-                    <Link to="#" style={{ textDecoration: "none" }}>
+                    <Link to="/addsalary" style={{ textDecoration: "none" }}>
                       Salary
                     </Link>
                   </Dropdown.Item>
 
                   <Dropdown.Item>
-                    <Link to="#" style={{ textDecoration: "none" }}>
+                    <Link to="/addinventory" style={{ textDecoration: "none" }}>
                       Inventory
                     </Link>
                   </Dropdown.Item>
 
                   <Dropdown.Item>
-                    <Link to="#" style={{ textDecoration: "none" }}>
+                    <Link to="/addother" style={{ textDecoration: "none" }}>
                       Other
                     </Link>
                   </Dropdown.Item>
