@@ -113,7 +113,7 @@ const EditEvent = () => {
 
                 <Dropdown.Menu>
                   <Dropdown.Item>
-                    <Link to="#" style={{ textDecoration: "none" }}>
+                    <Link to="/adddelivery" style={{ textDecoration: "none" }}>
                       Delivery
                     </Link>
                   </Dropdown.Item>
@@ -125,31 +125,37 @@ const EditEvent = () => {
                   </Dropdown.Item>
 
                   <Dropdown.Item>
-                    <Link to="#" style={{ textDecoration: "none" }}>
+                    <Link
+                      to="/addappointment"
+                      style={{ textDecoration: "none" }}
+                    >
                       Appointment
                     </Link>
                   </Dropdown.Item>
 
                   <Dropdown.Item>
-                    <Link to="#" style={{ textDecoration: "none" }}>
+                    <Link
+                      to="/addadvertisement"
+                      style={{ textDecoration: "none" }}
+                    >
                       Advertisement
                     </Link>
                   </Dropdown.Item>
 
                   <Dropdown.Item>
-                    <Link to="#" style={{ textDecoration: "none" }}>
+                    <Link to="/addsalary" style={{ textDecoration: "none" }}>
                       Salary
                     </Link>
                   </Dropdown.Item>
 
                   <Dropdown.Item>
-                    <Link to="#" style={{ textDecoration: "none" }}>
+                    <Link to="/addinventory" style={{ textDecoration: "none" }}>
                       Inventory
                     </Link>
                   </Dropdown.Item>
 
                   <Dropdown.Item>
-                    <Link to="#" style={{ textDecoration: "none" }}>
+                    <Link to="/addother" style={{ textDecoration: "none" }}>
                       Other
                     </Link>
                   </Dropdown.Item>
@@ -175,18 +181,22 @@ const EditEvent = () => {
           </ul>
         </nav>
 
-        <h2
-          className="h2"
-          style={{
-            color: "#60A43E",
-            fontWeight: "bold",
-            fontFamily: "Times New Roman",
-            paddingtop: "5px",
-          }}
-        >
+        <b>
           {" "}
-          Finance Management
-        </h2>
+          <h2
+            className="h2"
+            style={{
+              color: "#60A43E",
+              padding: "2px",
+              fontWeight: "bold",
+              fontFamily: "Times New Roman",
+              paddingtop: "5px",
+            }}
+          >
+            {" "}
+            Finance Management
+          </h2>
+        </b>
         <br></br>
         <br></br>
         <div>

@@ -3,7 +3,7 @@ import { Button, ButtonGroup, Dropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./event.css";
 import "../../../App.css";
-import React, { useState } from "react";
+import "../../../index.css";
 import "react-toastify/dist/ReactToastify.css";
 
 const Home = () => {
@@ -131,21 +131,18 @@ const Home = () => {
             Finance Management
           </h2>
         </b>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
 
-        <h1 className="h1" style={{ color: "white" }}>
+        <h1 className="h1" style={{ color: "white", marginTop: "0px" }}>
           <center>
             <b>~ Welcome to the Financial Management ~</b>
             <br />
           </center>
         </h1>
+        <div class="wrap">
+          <a href="/adddelivery">
+            <button class="touch">Get Start</button>
+          </a>
+        </div>
       </section>
     </div>
   );

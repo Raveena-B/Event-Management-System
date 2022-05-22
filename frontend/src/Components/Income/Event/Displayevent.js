@@ -101,7 +101,10 @@ export default class DisplayEvent extends React.Component {
 
                   <Dropdown.Menu>
                     <Dropdown.Item>
-                      <Link to="#" style={{ textDecoration: "none" }}>
+                      <Link
+                        to="/adddelivery"
+                        style={{ textDecoration: "none" }}
+                      >
                         Delivery
                       </Link>
                     </Dropdown.Item>
@@ -113,37 +116,45 @@ export default class DisplayEvent extends React.Component {
                     </Dropdown.Item>
 
                     <Dropdown.Item>
-                      <Link to="#" style={{ textDecoration: "none" }}>
+                      <Link
+                        to="/addappointment"
+                        style={{ textDecoration: "none" }}
+                      >
                         Appointment
                       </Link>
                     </Dropdown.Item>
 
                     <Dropdown.Item>
-                      <Link to="#" style={{ textDecoration: "none" }}>
+                      <Link
+                        to="/addadvertisement"
+                        style={{ textDecoration: "none" }}
+                      >
                         Advertisement
                       </Link>
                     </Dropdown.Item>
 
                     <Dropdown.Item>
-                      <Link to="#" style={{ textDecoration: "none" }}>
+                      <Link to="/addsalary" style={{ textDecoration: "none" }}>
                         Salary
                       </Link>
                     </Dropdown.Item>
 
                     <Dropdown.Item>
-                      <Link to="#" style={{ textDecoration: "none" }}>
+                      <Link
+                        to="/addinventory"
+                        style={{ textDecoration: "none" }}
+                      >
                         Inventory
                       </Link>
                     </Dropdown.Item>
 
                     <Dropdown.Item>
-                      <Link to="#" style={{ textDecoration: "none" }}>
+                      <Link to="/addother" style={{ textDecoration: "none" }}>
                         Other
                       </Link>
                     </Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
-
                 <li className="li">
                   <Link to="#"> Supplier</Link>
                 </li>
@@ -162,18 +173,22 @@ export default class DisplayEvent extends React.Component {
               </center>
             </ul>
           </nav>
-
-          <h2
-            className="h2"
-            style={{
-              color: "#60A43E",
-              fontWeight: "bold",
-              fontFamily: "Times New Roman",
-              paddingtop: "5px",
-            }}
-          >
-            Finance Management
-          </h2>
+          <b>
+            {" "}
+            <h2
+              className="h2"
+              style={{
+                color: "#60A43E",
+                padding: "2px",
+                fontWeight: "bold",
+                fontFamily: "Times New Roman",
+                paddingtop: "5px",
+              }}
+            >
+              {" "}
+              Finance Management
+            </h2>
+          </b>
           <br></br>
           <br></br>
           <div>
@@ -216,9 +231,10 @@ export default class DisplayEvent extends React.Component {
                   <p>
                     <div
                       className="student"
-                      style={{ background: "#AED6F1", width: "350px" }}
+                      style={{ background: "#d1e189", width: "350px" }}
                     >
                       <div className="details">
+                        {" "}
                         <div>
                           <div style={{ float: "right" }}></div>
 

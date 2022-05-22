@@ -568,19 +568,20 @@ btn:hover {
     color: #ffffff;
     font-family: "monospace";
     font-size: 55px;
-    margin-top: 1500px;
-    background-color: #000000;
+    /* margin-top: 0px; */
+    background-color: #4b6309;
     opacity: 0.7;
     /* margin-left: 225px; */
     padding-top: 2%;
     padding-bottom: 2%;
     width: 1271px;
+    height:150px;
     float: right;
 
 }
 
 .display {
-    background-color: #7B241C;
+    background-color: #70b25d;
     border: none;
     color: rgb(255, 255, 255);
     padding: 20px;
@@ -597,7 +598,7 @@ btn:hover {
 }
 
 .btnback {
-    background-color: #7B241C;
+    background-color: #70b25d;
     border: none;
     color: rgb(255, 255, 255);
     padding: 10px;

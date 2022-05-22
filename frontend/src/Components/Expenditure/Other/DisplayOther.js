@@ -173,18 +173,22 @@ export default class DisplayOther extends React.Component {
               </center>
             </ul>
           </nav>
-
-          <h2
-            className="h2"
-            style={{
-              color: "#60A43E",
-              fontWeight: "bold",
-              fontFamily: "Times New Roman",
-              paddingtop: "5px",
-            }}
-          >
-            Finance Management
-          </h2>
+          <b>
+            {" "}
+            <h2
+              className="h2"
+              style={{
+                color: "#60A43E",
+                padding: "2px",
+                fontWeight: "bold",
+                fontFamily: "Times New Roman",
+                paddingtop: "5px",
+              }}
+            >
+              {" "}
+              Finance Management
+            </h2>
+          </b>
           <br></br>
           <br></br>
           <div>
@@ -196,7 +200,8 @@ export default class DisplayOther extends React.Component {
                 color: "white",
                 marginRight: "300px",
                 marginTop: "10px",
-                color: "white",
+                color: "Black",
+                fontWeight: "bold",
               }}
             >
               <center> All Other Payments ..</center>
@@ -227,7 +232,7 @@ export default class DisplayOther extends React.Component {
                   <p>
                     <div
                       className="student"
-                      style={{ background: "#AED6F1", width: "350px" }}
+                      style={{ background: "#d1e189", width: "350px" }}
                     >
                       <div className="details">
                         <div>
@@ -248,9 +253,10 @@ export default class DisplayOther extends React.Component {
                         </div>
                         <div style={{ display: "flex" }}>
                           <div>
-                            <Link to={`/editother/${i._id}`}>
+                            <Link to={"/addpaymentdetails"}>
                               <button className="btn btn-secondary">
-                                Edit
+                                Add Payment <br />
+                                details
                               </button>
                             </Link>
                           </div>

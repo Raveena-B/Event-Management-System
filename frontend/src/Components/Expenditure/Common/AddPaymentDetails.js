@@ -172,9 +172,22 @@ const AddPaymentDetails = () => {
             </ul>
           </nav>
 
-          <h2 className="h2" style={{ color: "red" }}>
-            Finance Management
-          </h2>
+          <b>
+            {" "}
+            <h2
+              className="h2"
+              style={{
+                color: "#60A43E",
+                padding: "2px",
+                fontWeight: "bold",
+                fontFamily: "Times New Roman",
+                paddingtop: "5px",
+              }}
+            >
+              {" "}
+              Finance Management
+            </h2>
+          </b>
           <a href="/">
             <button className="btnback"> « Back</button>
           </a>

@@ -126,13 +126,16 @@ const AddSalary = () => {
                     </Dropdown.Item>
 
                     <Dropdown.Item>
-                      <Link to="#" style={{ textDecoration: "none" }}>
+                      <Link
+                        to="/addinventory"
+                        style={{ textDecoration: "none" }}
+                      >
                         Inventory
                       </Link>
                     </Dropdown.Item>
 
                     <Dropdown.Item>
-                      <Link to="#" style={{ textDecoration: "none" }}>
+                      <Link to="/addother" style={{ textDecoration: "none" }}>
                         Other
                       </Link>
                     </Dropdown.Item>
@@ -158,18 +161,22 @@ const AddSalary = () => {
             </ul>
           </nav>
 
-          <h2
-            className="h2"
-            style={{
-              color: "#60A43E",
-              fontWeight: "bold",
-              fontFamily: "Times New Roman",
-              paddingtop: "5px",
-            }}
-          >
+          <b>
             {" "}
-            Finance Management
-          </h2>
+            <h2
+              className="h2"
+              style={{
+                color: "#60A43E",
+                padding: "2px",
+                fontWeight: "bold",
+                fontFamily: "Times New Roman",
+                paddingtop: "5px",
+              }}
+            >
+              {" "}
+              Finance Management
+            </h2>
+          </b>
           <br />
           <a href="/">
             <button className="btnback"> « Back</button>

@@ -159,24 +159,30 @@ const AddOther = () => {
             </ul>
           </nav>
 
-          <h2
-            className="h2"
-            style={{
-              color: "#60A43E",
-              fontWeight: "bold",
-              fontFamily: "Times New Roman",
-              paddingtop: "5px",
-            }}
-          >
+          <b>
             {" "}
-            Finance Management
-          </h2>
+            <h2
+              className="h2"
+              style={{
+                color: "#60A43E",
+                padding: "2px",
+                fontWeight: "bold",
+                fontFamily: "Times New Roman",
+                paddingtop: "5px",
+              }}
+            >
+              {" "}
+              Finance Management
+            </h2>
+          </b>
           <br />
           <a href="/">
             <button className="btnback"> « Back</button>
           </a>
           <center>
-            <h1 style={{ color: "white" }}>Add Other Payment ..</h1>
+            <h1 style={{ color: "Black", fontWeight: "bold" }}>
+              Add Other Payment ..
+            </h1>
           </center>
           <form
             onSubmit={handleSubmit}
