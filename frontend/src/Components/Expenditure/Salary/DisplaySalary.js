@@ -19,7 +19,7 @@ export default class DisplayEvent extends React.Component {
 
     this.setState((prevState) => {
       const filteredData = prevState.data.filter((element) => {
-        return element.name.toLowerCase().includes(query.toLowerCase());
+        return element.employeeName.toLowerCase().includes(query.toLowerCase());
       });
 
       return {
@@ -169,22 +169,30 @@ export default class DisplayEvent extends React.Component {
           </b>
           <br></br>
           <br></br>
+
+          <form className="d-flex" style={{ float: "right" }}>
+            <input
+              className="form-control me-2"
+              type="search"
+              value={this.state.query}
+              onChange={this.handleInputChange}
+              placeholder="Search"
+              aria-label="Search"
+              style={{ width: "60%", height: "40px" }}
+            />{" "}
+            <br />
+            <button className="btn btn-outline-success" type="submit">
+              <i class="fa fa-fw fa-search"></i>Search
+            </button>
+          </form>
+
           <div>
             <a href="/addsalary">
-              <button className="btnback"> « Back</button>
+              <button className="btnback"> « Back</button> <br />
             </a>
-            <form className="d-flex">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-                style={{ width: "60%" }}
-              />
-              <button className="btn btn-outline-success" type="submit">
-                <i class="fa fa-fw fa-search"></i>Search
-              </button>
-            </form>
+            <br />
+
+            <br />
             <h1
               style={{
                 marginRight: "300px",
@@ -195,9 +203,7 @@ export default class DisplayEvent extends React.Component {
             >
               <center> All Salaries ..</center>
             </h1>
-
             <br />
-
             {/* Display data from API */}
             <div
               className="students"
