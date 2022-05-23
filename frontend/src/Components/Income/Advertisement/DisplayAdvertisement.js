@@ -76,16 +76,7 @@ export default class DisplayEvent extends React.Component {
                 <br />
                 <br />
                 <br />
-                <li className="li">
-                  <Link to="/"> Booking</Link>
-                </li>
 
-                <li className="li">
-                  <Link to="#"> Food</Link>
-                </li>
-                <li className="li">
-                  <Link to="#"> Event</Link>
-                </li>
                 <Dropdown as={ButtonGroup}>
                   <Button
                     style={{ backgroundColor: "#5377B1  " }}
@@ -156,21 +147,6 @@ export default class DisplayEvent extends React.Component {
                     </Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
-                <li className="li">
-                  <Link to="#"> Supplier</Link>
-                </li>
-                <li className="li">
-                  <Link to="#"> Customer</Link>
-                </li>
-                <li className="li">
-                  <Link to="#"> Inventory</Link>
-                </li>
-                <li className="li">
-                  <Link to="#"> Delivery</Link>
-                </li>
-                <li className="li" style={{ textDecoration: "none" }}>
-                  <Link to="#"> Employee</Link>
-                </li>
               </center>
             </ul>
           </nav>
